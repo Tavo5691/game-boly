@@ -2,7 +2,7 @@
 game-boly
 *.exe
 
-# Test output
+# Test output .
 *.test
 *.out
 
