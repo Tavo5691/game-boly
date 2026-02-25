@@ -1,0 +1,22 @@
+# Binaries
+game-boly
+*.exe
+
+# Test output
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Test ROM files (legal reasons — users provide their own)
+testdata/roms/*.gb
+testdata/roms/*.gbc
+
+# Golden frame fixtures are committed (used for regression testing)
+# testdata/fixtures/ — keep these
+
+# OS
+.DS_Store
+Thumbs.db
